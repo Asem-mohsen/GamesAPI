@@ -22,15 +22,22 @@ li , p{
 
 .openNav{
     font-size:30px;
-    cursor:pointer
+    cursor:pointer;
+    padding: 50px;
 }
 #sideMenu{
-    position: absolute;
     display: flex;
     flex-direction: column;
     height: 100%;
     width: 300px;
     background-color: white;
+    position: fixed;
+    top: 0;
+    left: -300px;
+    overflow-x: hidden;
+    transition: 0.5s;
+    z-index: 1;
+
     a{
         padding-left: 20px;
         margin-left: 20px;
@@ -97,6 +104,13 @@ li , p{
         color: white;
         font-size: 23px;
         cursor: pointer;
+    }
+    .text{
+        display: none;
+        width: 80%;
+        margin: auto;
+        padding: 20px;
+
     }
 }
 
