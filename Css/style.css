@@ -1,0 +1,178 @@
+*{
+
+}
+html{
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+li , p{
+    margin: 0;
+}
+
+.text-left{
+    text-align: left;
+}
+
+.openNav{
+    font-size:30px;
+    cursor:pointer
+}
+#sideMenu{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 300px;
+    background-color: white;
+    a{
+        padding-left: 20px;
+        margin-left: 20px;
+        font-size: 21px;
+        color: black;
+        height: 50px;
+    }
+    .closebtn{
+        text-align: right;
+        padding-right: 12px;
+        font-size: 26px;
+        color: red;
+        margin-bottom: 37px;
+    }
+}
+#Home{
+    background-image: url('../imgs/events-heavenly-header.jpg');
+    width: 100%;
+    height: 660px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    color: white;
+    position: relative;
+
+    .HomeOverlay{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgb(114 46 46 / 38%);
+    }
+    #home-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        align-items: center;
+        height: 100%;
+    }
+    #home-content h1{
+        font-size: 70px;
+    }
+    #home-content p{
+        font-size: 24px;
+    }
+    li{
+        cursor: pointer;
+    }
+
+}
+
+#singers{
+    h2{
+        font-size: 42px;
+        font-weight: bold;
+        font-family: fantasy;
+        letter-spacing: 6px;
+    }
+    .toggle{
+        background-color: #722e2e;
+        padding: 20px;
+        color: white;
+        font-size: 23px;
+        cursor: pointer;
+    }
+}
+
+#count{
+    background-image: url('../imgs/invitation-2508607__340.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    position: relative;
+    height: 330px;
+
+    .countOverlay{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgb(114 46 46 / 38%);
+        color: white;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+    }
+    .time{
+        padding: 45px;
+        border: 1px solid #FFF;
+        font-weight: 100;
+        font-size: 30px;
+    }
+}
+
+#contact{
+    h2{
+        font-size: 39px;
+        font-weight: bold;
+        font-family: fantasy;
+        letter-spacing: 6px;
+    }
+    p.small{
+        font-size: 18px;
+    }
+    .col-md-6 .row{
+        gap: 10px;
+    }
+    p.desc{
+        width: 70%;
+        margin: auto;
+        color: #7a7a7a;
+        font-size: 15px;
+    }
+    p.remaining{
+        text-align: left;
+        font-size: 15px;
+    }
+    .btn{
+        background-color: #722e2e;
+        color: white;
+        min-width: 150px;
+    }
+    .icons a{
+        border: 1px solid #722e2e;
+        padding: 10px;
+        border-radius: 4px;
+        color: white;
+        background-color: #722e2e;
+        margin: 5px;
+    }
+    .icons a:hover{
+        transition:all 0.4s;
+        background-color: #ffffff;
+        color: #722e2e;
+    }
+
+}
+
