@@ -9,6 +9,7 @@ $('.closebtn').on('click', function() {
 
 // Signers Section
 $('.toggle').on('click', function() {
+    $('.text').not($(this).next()).slideUp();
     $(this).next('.text').slideToggle();
 });
 
